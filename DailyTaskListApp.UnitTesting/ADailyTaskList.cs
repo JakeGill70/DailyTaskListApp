@@ -30,6 +30,19 @@ namespace DailyTaskListApp.UnitTesting
             Assert.That(actual, Is.EqualTo(expected));
         }
 
-        
+        [Test]
+        public void ShouldReportTheNumberOfTasks() {
+            const int NUMBER_OF_TASKS = 11;
+
+            var dateTime = new DateTime(2020, 3, 26);
+            var timeSpan = new TimeSpan(8, 0, 0);
+            var sut = new DailyTaskList(dateTime, timeSpan);
+
+            sut.Generate<FakeTaskItem>(NUMBER_OF_TASKS);
+
+            var actual = sut.NumberOfTasks;
+            var expected = NUMBER_OF_TASKS;
+            Assert.That(actual, Is.EqualTo(expected));
+        }
     }
 }

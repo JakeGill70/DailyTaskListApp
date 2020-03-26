@@ -11,9 +11,11 @@ namespace DailyTaskListApp.Model
 
 
         public string Date { get { return _date.ToString("MMM dd, yyyy"); } }
-        public object StartTime { get { return _date.ToString("h:mmtt").ToLowerInvariant(); } }
+        public string StartTime { get { return _date.ToString("h:mmtt").ToLowerInvariant(); } }
 
-        public object EndTime { get { return _tasks.Last<ITaskItem>().StartTime.ToString("h:mmtt").ToLowerInvariant(); } }
+        public string EndTime { get { return _tasks.Last<ITaskItem>().StartTime.ToString("h:mmtt").ToLowerInvariant(); } }
+
+        public int NumberOfTasks { get { return _tasks.Count; } }
 
         public DailyTaskList(DateTime date, TimeSpan startTime)
         {
