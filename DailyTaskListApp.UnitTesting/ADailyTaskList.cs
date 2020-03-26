@@ -10,10 +10,23 @@ namespace DailyTaskListApp.UnitTesting
     {
         [Test]
         public void ShouldReportItsDate() {
-            var sut = new DailyTaskList(new DateTime(2020, 3, 26));
+            var dateTime = new DateTime(2020, 3, 26);
+            var timeSpan = new TimeSpan(8, 0, 0);
+            var sut = new DailyTaskList(dateTime, timeSpan);
 
             var actual = sut.Date;
             var expected = "Mar 26, 2020";
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void ShouldReportTheStartTime() {
+            var dateTime = new DateTime(2020, 3, 26);
+            var timeSpan = new TimeSpan(8, 0, 0);
+            var sut = new DailyTaskList(dateTime, timeSpan);
+
+            var actual = sut.StartTime;
+            var expected = "8:00am";
             Assert.That(actual, Is.EqualTo(expected));
         }
     }
