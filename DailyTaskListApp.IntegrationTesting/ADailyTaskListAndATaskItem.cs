@@ -35,5 +35,16 @@ namespace DailyTaskListApp.IntegrationTesting
             Assert.That(sut[index].StartTimeString, Is.EqualTo(expectedTime));
         }
 
+        [Test]
+        public void ShouldReportEachTaskDescriptionAsHyphenWhenNoTask()
+        {
+            var sut = new DailyTaskList(new DateTime(2020, 3, 26), new TimeSpan(10, 0, 0));
+            sut.Generate<TaskItem>(6);
+            for (int i = 0; i < sut.NumberOfTasks; i++)
+            {
+                Assert.That(sut[i].Description, Is.EqualTo("-"));
+            }
+        }
+
     }
 }

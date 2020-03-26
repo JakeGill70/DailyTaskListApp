@@ -7,5 +7,7 @@ namespace DailyTaskListApp.Model
         public DateTime StartTime { get; set; }
 
         public string StartTimeString { get; }
+
+        public string Description { get; set; }
     }
 }

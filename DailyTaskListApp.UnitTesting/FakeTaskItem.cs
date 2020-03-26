@@ -8,5 +8,7 @@ namespace DailyTaskListApp.UnitTesting
         public DateTime StartTime { get; set; }
 
         public string StartTimeString => throw new NotImplementedException();
+
+        public string Description { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
