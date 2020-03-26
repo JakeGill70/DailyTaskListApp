@@ -21,5 +21,19 @@ namespace DailyTaskListApp.IntegrationTesting
             var expected = "1:00pm";
             Assert.That(actual, Is.EqualTo(expected));
         }
+
+        [TestCase(0, "10:00am")]
+        [TestCase(1, "10:30am")]
+        [TestCase(2, "11:00am")]
+        [TestCase(3, "11:30am")]
+        [TestCase(4, "12:00pm")]
+        [TestCase(5, "12:30pm")]
+        public void ShouldReportEachTaskStartTimeAsAString(int index, string expectedTime)
+        {
+            var sut = new DailyTaskList(new DateTime(2020, 3, 26), new TimeSpan(10, 0, 0));
+            sut.Generate<TaskItem>(6);
+            Assert.That(sut[index].StartTimeString, Is.EqualTo(expectedTime));
+        }
+
     }
 }

@@ -17,6 +17,8 @@ namespace DailyTaskListApp.Model
 
         public int NumberOfTasks { get { return _tasks.Count; } }
 
+        public ITaskItem this[int index] { get { return _tasks.ElementAt<ITaskItem>(index); } }
+
         public DailyTaskList(DateTime date, TimeSpan startTime)
         {
             _date = date.Date + startTime;
@@ -31,6 +33,8 @@ namespace DailyTaskListApp.Model
                 startTime = startTime.AddMinutes(30);
             }
         }
+
+        
 
     }
 }
