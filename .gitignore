@@ -2,4 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/DailyTaskListApp
+/.vs/
+/DailyTaskListApp.IntegrationTesting/bin/
+/DailyTaskListApp.Model/bin/
+/DailyTaskListApp.UnitTesting/bin/
+/DailyTaskListApp.IntegrationTesting/obj/Debug/
+/DailyTaskListApp.Model/obj/Debug/
+/DailyTaskListApp.UnitTesting/obj/Debug/
