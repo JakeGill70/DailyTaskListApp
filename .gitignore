@@ -9,3 +9,5 @@
 /DailyTaskListApp.IntegrationTesting/obj/Debug/
 /DailyTaskListApp.Model/obj/Debug/
 /DailyTaskListApp.UnitTesting/obj/Debug/
+/DailyTaskListApp.ConsoleApp/obj
+/DailyTaskListApp.ConsoleApp/bin/Debug/netcoreapp3.1
