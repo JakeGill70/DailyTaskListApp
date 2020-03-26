@@ -1,0 +1,4 @@
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.IntegrationTesting\bin\Debug\netcoreapp3.1\DailyTaskListApp.Model.dll
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.IntegrationTesting\obj\Debug\netcoreapp3.1\DailyTaskListApp.IntegrationTesting.csprojAssemblyReference.cache
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.IntegrationTesting\obj\Debug\netcoreapp3.1\DailyTaskListApp.IntegrationTesting.AssemblyInfoInputs.cache
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.IntegrationTesting\obj\Debug\netcoreapp3.1\DailyTaskListApp.IntegrationTesting.AssemblyInfo.cs

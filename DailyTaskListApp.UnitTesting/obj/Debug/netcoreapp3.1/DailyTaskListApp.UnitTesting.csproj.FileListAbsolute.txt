@@ -1,0 +1,7 @@
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.UnitTesting\bin\Debug\netcoreapp3.1\DailyTaskListApp.Model.dll
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.UnitTesting\obj\Debug\netcoreapp3.1\DailyTaskListApp.UnitTesting.csprojAssemblyReference.cache
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.UnitTesting\obj\Debug\netcoreapp3.1\DailyTaskListApp.UnitTesting.AssemblyInfoInputs.cache
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.UnitTesting\obj\Debug\netcoreapp3.1\DailyTaskListApp.UnitTesting.AssemblyInfo.cs
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.UnitTesting\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.UnitTesting\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\JakeG\source\repos\DailyTaskListApp\DailyTaskListApp.UnitTesting\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll

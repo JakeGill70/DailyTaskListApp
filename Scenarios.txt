@@ -1,0 +1,23 @@
+As Aima, I want to generate today's task list so that I can start entering my tasks.
+
+DTLA = Daily Task List App
+
+Scenario: I successfully generate today's task list 
+Pre: I'm on the main screen
+Trigger: I select the Generate Today's Task List command
+1. I enter 11 as the number of half-hour segments
+2. DTLA generates today's empty task list
+3. DTLA responds with today's empty task list:
+   Mar 26, 2020
+   8:00am -
+   8:30am -
+   9:00am -
+   9:30am -
+   10:00am -
+   10:30am -
+   11:00am -
+   11:30am -
+   12:00pm -
+   12:30pm -
+   1:00pm -
+Post: I can see today's empty task list
